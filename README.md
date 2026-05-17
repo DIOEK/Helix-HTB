@@ -47,6 +47,9 @@ And then ss -tulnp for open ports:
 <img width="1225" height="218" alt="image" src="https://github.com/user-attachments/assets/734724fd-e647-459e-bb60-499f30e8daca" />
 
 So, 4840 and 8081 are of interest, if we foward 8081, we find the following service:
+<img width="1907" height="633" alt="image" src="https://github.com/user-attachments/assets/17ae4dc9-ceef-4097-83d1-4d88d1549499" />
+
+
 
 
 

@@ -55,6 +55,7 @@ This seems to be a monitor for some kind of IoT service, we can see that there i
 4840 is the port commonly used for OCP. OCP is a protocol used for communications between IoT sensors and cloud processors. The line of attack here is to try and modify the parameters found in 8081 so we can open a maintenance terminal using the command presented to us when we executed sudo -l. The command is: /usr/local/sbin/helix-maint-console. If we try to execute it before tampering with the settings, the following message shows:
 <img width="1113" height="222" alt="image" src="https://github.com/user-attachments/assets/f60a5181-8214-4472-b1de-40a7503806d7" />
 
+As specified in port 8081, the window'll only be open when Trip.
 
 
 Now execute the command and get root:

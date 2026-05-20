@@ -52,6 +52,16 @@ So, 4840 and 8081 are of interest. Port 4840 is  if we foward 8081, we find the 
 This seems to be a monitor for some kind of IoT service, we can see that there is a control module inside opc.tcp://127.0.0.1:4048/helix/
 <img width="578" height="233" alt="image" src="https://github.com/user-attachments/assets/a3b43340-af43-4809-94eb-f69de3a2f7b6" />
 
+4840 is the port commonly used for OCP. OCP is a protocol used for communications between IoT sensors and cloud processors. The line of attack here is to try and modify the parameters found in 8081 so we can open a maintenance terminal using the command presented to us when we executed sudo -l. The command is: /usr/local/sbin/helix-maint-console. If we try to execute it before tampering with the settings, the following message shows:
+<img width="1113" height="222" alt="image" src="https://github.com/user-attachments/assets/f60a5181-8214-4472-b1de-40a7503806d7" />
+
+
+
+Now execute the command and get root:
+<img width="1427" height="82" alt="image" src="https://github.com/user-attachments/assets/1db4f187-f5f2-4653-a526-ec3bbb14a9ad" />
+
+
+
 
 
 

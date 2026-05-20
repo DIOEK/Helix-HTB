@@ -46,8 +46,12 @@ Now for privilege escalation we first check sudo -l:
 And then ss -tulnp for open ports:
 <img width="1225" height="218" alt="image" src="https://github.com/user-attachments/assets/734724fd-e647-459e-bb60-499f30e8daca" />
 
-So, 4840 and 8081 are of interest, if we foward 8081, we find the following service:
+So, 4840 and 8081 are of interest. Port 4840 is  if we foward 8081, we find the following service:
 <img width="1907" height="633" alt="image" src="https://github.com/user-attachments/assets/17ae4dc9-ceef-4097-83d1-4d88d1549499" />
+
+This seems to be a monitor for some kind of IoT service, we can see that there is a control module inside opc.tcp://127.0.0.1:4048/helix/
+<img width="578" height="233" alt="image" src="https://github.com/user-attachments/assets/a3b43340-af43-4809-94eb-f69de3a2f7b6" />
+
 
 
 
